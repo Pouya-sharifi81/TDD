@@ -16,7 +16,7 @@ namespace TDDProjectTest
             //Act
             var result = homeController.Index();
             //Assert
-            Assert.IsType<ViewResult>(result);
+            Assert.IsType<ViewResult>(result);x
         }
     }
 }
