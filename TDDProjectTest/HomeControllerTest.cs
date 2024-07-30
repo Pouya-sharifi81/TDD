@@ -1,8 +1,10 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TDDProjectMvc.Controllers;
 
 namespace TDDProjectTest
 {
@@ -16,7 +18,7 @@ namespace TDDProjectTest
             //Act
             var result = homeController.Index();
             //Assert
-            Assert.IsType<ViewResult>(result);x
+            Assert.IsType<ViewResult>(result);
         }
     }
 }
